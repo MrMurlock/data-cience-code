@@ -176,7 +176,7 @@
 
 ## 7. Visualizaciones
 
-Todas las visualizaciones guardadas en: `src/output/figures/`
+Todas las visualizaciones guardadas en: `src/output/figures/eda`
 
 ---
 
@@ -197,11 +197,11 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 |---------|-------------|
 | `raw_bar_ordinal_Quality_of_Sleep.png` | Calidad del sueño (escala 4-9, ordinal) |
 
-![Age Histogram](/src/output/figures/raw_hist_Age.png)
-![Sleep Duration Histogram](/src/output/figures/raw_hist_Sleep_Duration.png)
-![Quality of Sleep Bar](/src/output/figures/raw_bar_ordinal_Quality_of_Sleep.png)
-![Heart Rate Histogram](/src/output/figures/raw_hist_Heart_Rate.png)
-![Daily Steps Histogram](/src/output/figures/raw_hist_Daily_Steps.png)
+![Age Histogram](/src/output/figures/eda/raw_hist_Age.png)
+![Sleep Duration Histogram](/src/output/figures/eda/raw_hist_Sleep_Duration.png)
+![Quality of Sleep Bar](/src/output/figures/eda/raw_bar_ordinal_Quality_of_Sleep.png)
+![Heart Rate Histogram](/src/output/figures/eda/raw_hist_Heart_Rate.png)
+![Daily Steps Histogram](/src/output/figures/eda/raw_hist_Daily_Steps.png)
 
 #### Boxplots (Detección de Outliers)
 
@@ -213,11 +213,11 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 | `raw_box_Heart_Rate.png` | Boxplot de frecuencia cardíaca |
 | `raw_box_Daily_Steps.png` | Boxplot de pasos diarios |
 
-![Age Boxplot](/src/output/figures/raw_box_Age.png)
-![Sleep Duration Boxplot](/src/output/figures/raw_box_Sleep_Duration.png)
-![Quality of Sleep Boxplot](/src/output/figures/raw_box_Quality_of_Sleep.png)
-![Heart Rate Boxplot](/src/output/figures/raw_box_Heart_Rate.png)
-![Daily Steps Boxplot](/src/output/figures/raw_box_Daily_Steps.png)
+![Age Boxplot](/src/output/figures/eda/raw_box_Age.png)
+![Sleep Duration Boxplot](/src/output/figures/eda/raw_box_Sleep_Duration.png)
+![Quality of Sleep Boxplot](/src/output/figures/eda/raw_box_Quality_of_Sleep.png)
+![Heart Rate Boxplot](/src/output/figures/eda/raw_box_Heart_Rate.png)
+![Daily Steps Boxplot](/src/output/figures/eda/raw_box_Daily_Steps.png)
 
 #### Pie Charts (Distribuciones Categóricas)
 
@@ -227,9 +227,9 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 | `raw_pie_BMI_Category.png` | Distribución de categoría BMI |
 | `raw_pie_Sleep_Disorder.png` | Distribución de desorden del sueño |
 
-![Gender Pie Chart](/src/output/figures/raw_pie_Gender.png)
-![BMI Category Pie Chart](/src/output/figures/raw_pie_BMI_Category.png)
-![Sleep Disorder Pie Chart](/src/output/figures/raw_pie_Sleep_Disorder.png)
+![Gender Pie Chart](/src/output/figures/eda/raw_pie_Gender.png)
+![BMI Category Pie Chart](/src/output/figures/eda/raw_pie_BMI_Category.png)
+![Sleep Disorder Pie Chart](/src/output/figures/eda/raw_pie_Sleep_Disorder.png)
 
 ---
 
@@ -252,9 +252,9 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 |---------|-------------|
 | `cleaned_bar_ordinal_Quality_of_Sleep.png` | Calidad del sueño (escala 4-9, ordinal) |
 
-![Systolic Blood Pressure Histogram](/src/output/figures/cleaned_hist_bp_systolic.png)
-![Diastolic Blood Pressure Histogram](/src/output/figures/cleaned_hist_bp_diastolic.png)
-![Quality of Sleep Bar](/src/output/figures/cleaned_bar_ordinal_Quality_of_Sleep.png)
+![Systolic Blood Pressure Histogram](/src/output/figures/eda/cleaned_hist_bp_systolic.png)
+![Diastolic Blood Pressure Histogram](/src/output/figures/eda/cleaned_hist_bp_diastolic.png)
+![Quality of Sleep Bar](/src/output/figures/eda/cleaned_bar_ordinal_Quality_of_Sleep.png)
 
 #### Boxplots
 
@@ -268,8 +268,8 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 | `cleaned_box_bp_systolic.png` | Boxplot de presión sistólica |
 | `cleaned_box_bp_diastolic.png` | Boxplot de presión diastólica |
 
-![Systolic Blood Pressure Boxplot](/src/output/figures/cleaned_box_bp_systolic.png)
-![Diastolic Blood Pressure Boxplot](/src/output/figures/cleaned_box_bp_diastolic.png)
+![Systolic Blood Pressure Boxplot](/src/output/figures/eda/cleaned_box_bp_systolic.png)
+![Diastolic Blood Pressure Boxplot](/src/output/figures/eda/cleaned_box_bp_diastolic.png)
 
 #### Pie Charts (Distribuciones Categóricas)
 
@@ -281,10 +281,10 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 | `cleaned_pie_age_group.png` | Grupos de edad |
 | `cleaned_pie_quality_group.png` | Grupos de calidad |
 
-![Cleaned Pie Sleep Disorder](/src/output/figures/cleaned_pie_Sleep_Disorder.png)
-![Age Group Pie Chart](/src/output/figures/cleaned_pie_age_group.png)
-![BMI Category Pie Chart](/src/output/figures/cleaned_pie_BMI_Category.png)
-![Quality Group Pie Chart](/src/output/figures/cleaned_pie_quality_group.png)
+![Cleaned Pie Sleep Disorder](/src/output/figures/eda/cleaned_pie_Sleep_Disorder.png)
+![Age Group Pie Chart](/src/output/figures/eda/cleaned_pie_age_group.png)
+![BMI Category Pie Chart](/src/output/figures/eda/cleaned_pie_BMI_Category.png)
+![Quality Group Pie Chart](/src/output/figures/eda/cleaned_pie_quality_group.png)
 
 #### Matriz de Correlación
 
@@ -292,7 +292,7 @@ Todas las visualizaciones guardadas en: `src/output/figures/`
 |---------|-------------|
 | `cleaned_correlation_heatmap.png` | Correlación entre todas las variables numéricas |
 
-![Correlation Heatmap](/src/output/figures/cleaned_correlation_heatmap.png)
+![Correlation Heatmap](/src/output/figures/eda/cleaned_correlation_heatmap.png)
 
 ---
 
@@ -309,8 +309,8 @@ Análisis de relaciones entre variables del dataset limpio.
 | `cleaned_scatter_Age_Sleep_Duration_by_Sleep_Disorder.png` | Age vs Sleep Duration por Sleep Disorder |
 | `cleaned_bar_Sleep_Disorder_by_Gender.png` | Sleep Disorder by Gender |
 
-![Scatter Duration vs Quality](/src/output/figures/cleaned_scatter_Sleep_Duration_Quality_of_Sleep.png)
-![Boxplot Disorder vs Duration](/src/output/figures/cleaned_box_Sleep_Disorder_Sleep_Duration.png)
-![Scatter Age Disorder](/src/output/figures/cleaned_scatter_Age_Sleep_Duration_by_Sleep_Disorder.png)
-![Bar Disorder Gender](/src/output/figures/cleaned_bar_Sleep_Disorder_by_Gender.png)
+![Scatter Duration vs Quality](/src/output/figures/eda/cleaned_scatter_Sleep_Duration_Quality_of_Sleep.png)
+![Boxplot Disorder vs Duration](/src/output/figures/eda/cleaned_box_Sleep_Disorder_Sleep_Duration.png)
+![Scatter Age Disorder](/src/output/figures/eda/cleaned_scatter_Age_Sleep_Duration_by_Sleep_Disorder.png)
+![Bar Disorder Gender](/src/output/figures/eda/cleaned_bar_Sleep_Disorder_by_Gender.png)
 

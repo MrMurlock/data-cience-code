@@ -19,7 +19,7 @@ def plot_histogram(df: pd.DataFrame, column: str, save: bool = False, prefix: st
     plt.tight_layout()
     if save:
         filename = f"{prefix}hist_{column}.png".replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -31,7 +31,7 @@ def plot_boxplot(df: pd.DataFrame, column: str, save: bool = False, prefix: str 
     plt.tight_layout()
     if save:
         filename = f"{prefix}box_{column}.png".replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -44,7 +44,7 @@ def plot_correlation_heatmap(df: pd.DataFrame, save: bool = False, prefix: str =
     plt.tight_layout()
     if save:
         filename = f"{prefix}correlation_heatmap.png"
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -59,7 +59,7 @@ def plot_bar_chart(df: pd.DataFrame, column: str, save: bool = False, prefix: st
     plt.tight_layout()
     if save:
         filename = f"{prefix}bar_{column}.png".replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -78,7 +78,7 @@ def plot_ordinal_bar(df: pd.DataFrame, column: str, save: bool = False, prefix: 
     plt.tight_layout()
     if save:
         filename = f"{prefix}bar_ordinal_{column}.png".replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -91,7 +91,7 @@ def plot_pie_chart(df: pd.DataFrame, column: str, save: bool = False, prefix: st
     plt.tight_layout()
     if save:
         filename = f"{prefix}pie_{column}.png".replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -107,7 +107,7 @@ def plot_scatter(df: pd.DataFrame, x: str, y: str, save: bool = False, prefix: s
     if save:
         filename = f"{prefix}scatter_{x}_{y}" + (f"_by_{hue}" if hue else "") + ".png"
         filename = filename.replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -124,7 +124,7 @@ def plot_boxplot_grouped(df: pd.DataFrame, x: str, y: str, save: bool = False, p
     if save:
         filename = f"{prefix}box_{x}_{y}" + (f"_by_{hue}" if hue else "") + ".png"
         filename = filename.replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()
 
 
@@ -143,5 +143,5 @@ def plot_grouped_bar(df: pd.DataFrame, x: str, save: bool = False, prefix: str =
     plt.tight_layout()
     if save:
         filename = f"{prefix}bar_{x}_by_{hue}.png".replace(" ", "_")
-        fig.savefig(config.get_output_path("figures") + f"/{filename}", dpi=150)
+        fig.savefig(config.get_output_path("figures", subfolder="eda") + f"/{filename}", dpi=150)
     plt.close()

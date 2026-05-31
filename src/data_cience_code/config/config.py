@@ -1,6 +1,6 @@
 
-DATASET_FOLDER_ABS_PATH = "/home/murlock/Descargas/data-cience-code/src/dataset"
-OUTPUT_FOLDER_ABS_PATH = "/home/murlock/Descargas/data-cience-code/src/output"
+DATASET_FOLDER_ABS_PATH = "/home/murlock/Documentos/uda/data-cience-code/src/dataset"
+OUTPUT_FOLDER_ABS_PATH = "/home/murlock/Documentos/uda/data-cience-code/src/output"
 
 # Dataset paths
 # absolute path for raw and processed folders
@@ -15,9 +15,13 @@ def get_dataset_path(dataset_type: str) -> str:
 # Output paths
 # absolute path for figures and reports folders
 # output_type: "figures" or "reports"
-def get_output_path(output_type: str) -> str:
-    switch = {
+# subfolder: optional subfolder name (e.g., "eda", "models")
+def get_output_path(output_type: str, subfolder: str = "") -> str:
+    base_path = {
         "figures": f"{OUTPUT_FOLDER_ABS_PATH}/figures",
         "reports": f"{OUTPUT_FOLDER_ABS_PATH}/reports"
-    }
-    return switch[output_type]
+    }[output_type]
+    
+    if subfolder:
+        return f"{base_path}/{subfolder}"
+    return base_path
