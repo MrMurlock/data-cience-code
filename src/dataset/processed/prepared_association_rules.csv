@@ -1,0 +1,375 @@
+Gender,BMI Category,Sleep Disorder,age_group,quality_group,sleep_duration_cat,stress_cat,activity_cat,heart_rate_cat,daily_steps_cat,bp_systolic_cat,bp_diastolic_cat,occupation_group
+Male,Overweight,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Young,Medium,Corto,Alto,Medio,Alto,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Medio,Alto,Activo,Elevada,Elevada,Healthcare
+Male,Obese,Sleep Apnea,Young,Low,Corto,Alto,Bajo,Alto,Sedentario,Alta,Alta,Sales
+Male,Obese,Sleep Apnea,Young,Low,Corto,Alto,Bajo,Alto,Sedentario,Alta,Alta,Sales
+Male,Obese,Insomnia,Young,Low,Corto,Alto,Bajo,Alto,Sedentario,Alta,Alta,Technical
+Male,Obese,Insomnia,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Alta,Alta,Education
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Normal,Activo,Elevada,Elevada,Healthcare
+Female,Normal,Sleep Apnea,Young,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Healthcare
+Male,Normal,Sleep Apnea,Young,Medium,Corto,Alto,Bajo,Normal,Activo,Elevada,Elevada,Healthcare
+Female,Normal,Insomnia,Young,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Female,Normal,Sleep Apnea,Young,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Healthcare
+Female,Normal,Insomnia,Young,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Healthcare
+Female,Normal,None,Young,High,Largo,Medio,Alto,Normal,Moderado,Normal,Normal,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Largo,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,Sleep Apnea,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Bajo,Medio,Normal,Activo,Elevada,Elevada,Technical
+Male,Normal,None,Young,High,Medio,Bajo,Medio,Normal,Activo,Elevada,Elevada,Technical
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Alto,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,High,Medio,Alto,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,Insomnia,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Female,Overweight,None,Young,Medium,Corto,Alto,Medio,Alto,Sedentario,Elevada,Elevada,Technical
+Female,Overweight,None,Young,Medium,Corto,Alto,Medio,Alto,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Young,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Female,Overweight,Sleep Apnea,Young,Low,Corto,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Technical
+Female,Overweight,Sleep Apnea,Young,Low,Corto,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Technical
+Male,Overweight,None,Middle,High,Medio,Medio,Bajo,Normal,Moderado,Elevada,Elevada,Education
+Male,Overweight,None,Middle,High,Medio,Medio,Bajo,Normal,Moderado,Elevada,Elevada,Education
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Elevada,Elevada,Technical
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Bajo,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Bajo,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Bajo,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Bajo,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Bajo,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Bajo,Sedentario,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Elevada,Elevada,Technical
+Male,Obese,Sleep Apnea,Middle,High,Medio,Medio,Medio,Alto,Sedentario,Alta,Elevada,Legal
+Female,Normal,Insomnia,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Education
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Education
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Education
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Education
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Education
+Male,Overweight,Sleep Apnea,Middle,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Education
+Female,Normal,Sleep Apnea,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Education
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Education
+Female,Overweight,None,Middle,Medium,Corto,Alto,Bajo,Alto,Sedentario,Elevada,Elevada,Healthcare
+Male,Normal,None,Middle,High,Largo,Medio,Medio,Normal,Moderado,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Medio,Normal,Moderado,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Elevada,Elevada,Healthcare
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Moderado,Normal,Normal,Business
+Male,Normal,Sleep Apnea,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Obese,Sleep Apnea,Middle,High,Medio,Medio,Medio,Alto,Sedentario,Alta,Elevada,Legal
+Male,Normal,Insomnia,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Bajo,Alto,Sedentario,Alta,Elevada,Technical
+Female,Normal,None,Middle,High,Medio,Alto,Medio,Alto,Sedentario,Elevada,Elevada,Legal
+Female,Normal,None,Middle,High,Largo,Bajo,Alto,Normal,Moderado,Normal,Normal,Business
+Female,Normal,None,Middle,High,Largo,Bajo,Alto,Normal,Moderado,Normal,Normal,Business
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Medio,Normal,Activo,Alta,Elevada,Legal
+Female,Normal,None,Middle,High,Medio,Alto,Medio,Alto,Moderado,Elevada,Normal,Business
+Female,Normal,None,Middle,High,Medio,Alto,Medio,Alto,Moderado,Elevada,Normal,Business
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,Insomnia,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Alto,Medio,Alto,Moderado,Elevada,Elevada,Technical
+Male,Overweight,None,Middle,High,Medio,Alto,Medio,Alto,Moderado,Elevada,Elevada,Legal
+Male,Overweight,None,Middle,High,Medio,Alto,Medio,Alto,Moderado,Elevada,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Legal
+Female,Overweight,Sleep Apnea,Middle,Medium,Medio,Alto,Medio,Alto,Sedentario,Alta,Elevada,Education
+Female,Overweight,Sleep Apnea,Middle,Medium,Medio,Alto,Medio,Alto,Sedentario,Alta,Elevada,Education
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Normal,Insomnia,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,Insomnia,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,Medium,Medio,Alto,Medio,Normal,Moderado,Normal,Normal,Technical
+Male,Overweight,None,Middle,High,Medio,Medio,Alto,Normal,Moderado,Elevada,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Medio,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,None,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Normal,Sleep Apnea,Middle,High,Largo,Medio,Alto,Normal,Activo,Alta,Elevada,Technical
+Male,Overweight,Sleep Apnea,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Middle,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Male,Overweight,Insomnia,Middle,Medium,Corto,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,Insomnia,Middle,High,Medio,Alto,Medio,Alto,Sedentario,Alta,Elevada,Technical
+Male,Overweight,None,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Male,Overweight,None,Middle,Medium,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Sales
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Bajo,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Bajo,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,Insomnia,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,None,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,None,Senior,High,Medio,Medio,Medio,Bajo,Moderado,Alta,Alta,Education
+Female,Overweight,None,Senior,High,Medio,Medio,Medio,Alto,Sedentario,Elevada,Elevada,Business
+Male,Obese,Insomnia,Senior,High,Medio,Medio,Medio,Alto,Sedentario,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Male,Obese,Insomnia,Senior,High,Medio,Medio,Medio,Alto,Sedentario,Alta,Alta,Healthcare
+Female,Overweight,None,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Male,Obese,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Alto,Sedentario,Alta,Alta,Healthcare
+Male,Obese,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Alto,Sedentario,Alta,Alta,Healthcare
+Female,Overweight,Insomnia,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Overweight,None,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Medio,Alto,Medio,Alto,Moderado,Elevada,Elevada,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,Medium,Corto,Alto,Alto,Alto,Activo,Alta,Alta,Healthcare
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Business
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Business
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Business
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Business
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Business
+Female,Overweight,Insomnia,Senior,High,Medio,Alto,Medio,Alto,Moderado,Alta,Elevada,Business
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,Insomnia,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Normal,None,Senior,High,Largo,Bajo,Bajo,Bajo,Sedentario,Elevada,Elevada,Technical
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Medio,Alto,Alto,Sedentario,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Medio,Alto,Alto,Sedentario,Alta,Alta,Healthcare
+Female,Normal,None,Senior,High,Largo,Bajo,Alto,Bajo,Activo,Normal,Normal,Healthcare
+Female,Normal,None,Senior,High,Largo,Bajo,Alto,Bajo,Activo,Normal,Normal,Healthcare
+Female,Overweight,None,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,None,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,None,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
+Female,Overweight,Sleep Apnea,Senior,High,Largo,Bajo,Alto,Normal,Moderado,Alta,Alta,Healthcare
