@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from config import config
+import data_cience_code.config.config as config
 
 
 plt.style.use("seaborn-v0_8-whitegrid")

@@ -3,7 +3,7 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
-import config.config as config
+import data_cience_code.config.config as config
 from .dbscan import train_dbscan
 from .utils import calculate_clustering_metrics
 

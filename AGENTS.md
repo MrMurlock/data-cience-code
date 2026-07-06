@@ -24,7 +24,17 @@ poetry add package_name
 ### Ejecutar Scripts
 
 ```bash
+# Pipeline EDA genérico
 PYTHONPATH=src poetry run python src/data_cience_code/main.py
+
+# Pipeline completo Sleep Disorder (EDA + Clustering)
+PYTHONPATH=src poetry run python -m data_cience_code.pipelines.sleep_disorder_analysis.main
+
+# Solo EDA Sleep Disorder
+PYTHONPATH=src poetry run python -m data_cience_code.pipelines.sleep_disorder_analysis.eda_pipeline
+
+# Solo clustering Sleep Disorder
+PYTHONPATH=src poetry run python -m data_cience_code.pipelines.sleep_disorder_analysis.clustering_pipeline
 ```
 
 ---
@@ -44,14 +54,38 @@ data-cience-code/                    # Root del proyecto (contiene Poetry)
 │   │   │   └── preprocess.py       # Limpieza y transformación
 │   │   ├── eda/
 │   │   │   ├── exploratory.py      # Análisis estadístico
-│   │   │   └── visualization.py   # Gráficos
-│   │   ├── models/                  # (futuro)
-│   │   │   ├── classification/
-│   │   │   └── clustering/
+│   │   │   ├── visualization.py   # Gráficos
+│   │   │   ├── viz_bivariate.py
+│   │   │   ├── viz_cleaned.py
+│   │   │   └── viz_raw.py
+│   │   ├── models/                  # CÓDIGO GENÉRICO REUTILIZABLE
+│   │   │   ├── base/               # Clases base abstractas
+│   │   │   │   ├── __init__.py
+│   │   │   │   └── clustering_base.py
+│   │   │   ├── clustering/
+│   │   │   │   ├── kmeans.py
+│   │   │   │   ├── hierarchical.py
+│   │   │   │   ├── dbscan.py
+│   │   │   │   ├── comparison.py
+│   │   │   │   ├── cluster_analysis.py
+│   │   │   │   └── utils.py
+│   │   │   ├── dimensionality_reduction/
+│   │   │   │   ├── pca.py
+│   │   │   │   └── visualization_pca.py
+│   │   │   └── classification/     # Futuro: reglas de asociación, árboles
+│   │   ├── pipelines/             # PIPELINES ESPECÍFICOS POR CASO DE ESTUDIO
+│   │   │   ├── sleep_disorder_analysis/  # Caso actual: Sleep Disorder
+│   │   │   │   ├── main.py         # Pipeline principal EDA + clustering
+│   │   │   │   ├── eda_pipeline.py  # Pipeline EDA específico
+│   │   │   │   ├── clustering_pipeline.py  # Pipeline clustering específico
+│   │   │   │   └── visualization.py  # Visualizaciones específicas
+│   │   │   └── template/          # Plantilla para futuros casos
+│   │   │       ├── __init__.py
+│   │   │       └── pipeline_template.py
 │   │   ├── utils/
 │   │   │   ├── helpers.py          # Funciones auxiliares
 │   │   │   └── constants.py        # Constantes del proyecto
-│   │   └── main.py                  # Pipeline principal
+│   │   └── main.py                  # Pipeline EDA genérico
 │   ├── dataset/
 │   │   ├── raw/
 │   │   └── processed/
@@ -160,14 +194,22 @@ src/data_cience_code/
 │   └── preprocess.py      # Limpieza y transformación básica
 ├── eda/
 │   ├── exploratory.py    # Análisis estadístico descriptivo
-│   └── visualization.py # Gráficos y visualizaciones
-├── models/
-│   ├── classification/   # Modelos de clasificación (futuro)
-│   └── clustering/       # Modelos de clustering (futuro)
+│   ├── visualization.py # Gráficos y visualizaciones
+│   ├── viz_bivariate.py
+│   ├── viz_cleaned.py
+│   └── viz_raw.py
+├── models/                 # CÓDIGO GENÉRICO REUTILIZABLE
+│   ├── base/              # Clases base para visualizaciones genéricas
+│   ├── clustering/        # Algoritmos de clustering genéricos
+│   ├── dimensionality_reduction/  # PCA y reducción de dimensionalidad
+│   └── classification/    # Futuro: clasificación, reglas de asociación
+├── pipelines/             # PIPELINES ESPECÍFICOS POR CASO DE ESTUDIO
+│   ├── sleep_disorder_analysis/  # Pipeline actual (Sleep Disorder)
+│   └── template/          # Plantilla para nuevos pipelines
 ├── utils/
 │   ├── helpers.py        # Funciones auxiliares
 │   └── constants.py      # Constantes del proyecto
-└── main.py               # Pipeline principal
+└── main.py               # Pipeline EDA genérico
 ```
 
 ### Reglas de Módulos
@@ -259,7 +301,21 @@ df['numero'] = pd.to_numeric(df['numero'], errors='coerce')
 
 ---
 
-## Fase 3: Modelado (models/*) - FUTURO
+## Fase 3: Modelado (models/*)
+
+### Arquitectura de Código
+
+**models/** contiene código genérico reutilizable:
+- Funciones de entrenamiento genéricas (train_kmeans, train_hierarchical, train_dbscan)
+- Visualizaciones genéricas (plot_clusters_3d, plot_biplot_3d)
+- Clases base para extender (ClusterVisualizer en models/base/)
+- Sin referencias a datasets específicos
+
+**pipelines/** contiene código específico de cada caso de estudio:
+- pipelines/sleep_disorder_analysis/ para el dataset actual
+- pipelines/template/ como plantilla para nuevos análisis
+- Cada pipeline usa funciones genéricas de models/
+- Visualizaciones específicas del dataset (ej: overlay con Sleep Disorder)
 
 ### Classification (models/classification/)
 - Preparar datos para clasificación
@@ -270,6 +326,16 @@ df['numero'] = pd.to_numeric(df['numero'], errors='coerce')
 - Preparar datos para clustering
 - Determinar número óptimo de clusters
 - Analizar segmentos
+
+### Crear Nuevo Pipeline
+
+Para crear un nuevo pipeline para un dataset diferente:
+
+1. Copiar `pipelines/template/` a `pipelines/your_analysis/`
+2. Implementar funciones específicas del dataset
+3. Crear visualizaciones específicas si es necesario
+4. Usar funciones genéricas de `models/` para el análisis
+5. Crear `main.py` que orqueste el pipeline completo
 
 ---
 
@@ -291,6 +357,8 @@ import seaborn as sns
 from data_cience_code.config import config
 from data_cience_code.data import load, validate, preprocess
 from data_cience_code.eda import exploratory, visualization
+from data_cience_code.models import clustering  # Para código genérico
+from data_cience_code.pipelines.sleep_disorder_analysis import main  # Para pipeline específico
 ```
 
 ### Configuración de Visualizaciones

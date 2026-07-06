@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-import config.config as config
+import data_cience_code.config.config as config
 
 
 def load_dbscan_labels_and_data():

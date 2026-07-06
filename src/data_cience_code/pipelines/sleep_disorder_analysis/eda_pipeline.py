@@ -1,16 +1,22 @@
-import pandas as pd
-from data.load import load_dataset
-from data.validate import validate
-from data.preprocess import clean_pipeline
-from eda.exploratory import describe_numeric, describe_categorical
-from eda import viz_raw
-from eda import viz_cleaned
-from eda import viz_bivariate
+"""
+EDA pipeline for Sleep Disorder dataset.
+
+This module executes exploratory data analysis specific to the Sleep Disorder dataset,
+using generic functions from data/ and eda/ modules.
+"""
+
+from data_cience_code.data.load import load_dataset
+from data_cience_code.data.validate import validate
+from data_cience_code.data.preprocess import clean_pipeline
+from data_cience_code.eda.exploratory import describe_numeric, describe_categorical
+from data_cience_code.eda import viz_bivariate
+from data_cience_code.eda import viz_cleaned
+from data_cience_code.eda import viz_raw
 import data_cience_code.config.config as config
 
 
-def run() -> dict:
-    """Run the main pipeline."""
+def run_eda() -> dict:
+    """Run the EDA pipeline for Sleep Disorder dataset."""
     df = load_dataset("original.csv")
 
     print("=== Dataset Head ===")
@@ -61,4 +67,4 @@ def run() -> dict:
 
 
 if __name__ == "__main__":
-    run()
+    run_eda()

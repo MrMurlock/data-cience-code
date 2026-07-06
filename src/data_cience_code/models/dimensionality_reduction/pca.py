@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-import config.config as config
+import data_cience_code.config.config as config
 
 
 def normalize_numerical_features(

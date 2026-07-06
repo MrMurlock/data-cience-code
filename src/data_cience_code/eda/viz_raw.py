@@ -1,5 +1,5 @@
-from data.load import load_dataset
-from eda.visualization import plot_boxplot, plot_histogram, plot_pie_chart, plot_ordinal_bar
+from data_cience_code.data.load import load_dataset
+from data_cience_code.eda.visualization import plot_boxplot, plot_histogram, plot_pie_chart, plot_ordinal_bar
 
 
 NUMERIC_COLS = ["Age", "Sleep Duration", "Heart Rate", "Daily Steps"]

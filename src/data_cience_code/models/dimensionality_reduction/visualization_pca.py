@@ -6,7 +6,7 @@ import pandas as pd
 import seaborn as sns
 from mpl_toolkits.mplot3d import Axes3D
 
-import config.config as config
+import data_cience_code.config.config as config
 
 
 def plot_biplot_2d(

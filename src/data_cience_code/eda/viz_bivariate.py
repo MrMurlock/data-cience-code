@@ -1,5 +1,5 @@
-from data.load import load_dataset
-from eda.visualization import plot_scatter, plot_boxplot_grouped, plot_grouped_bar
+from data_cience_code.data.load import load_dataset
+from data_cience_code.eda.visualization import plot_scatter, plot_boxplot_grouped, plot_grouped_bar
 
 
 def run_bivariate() -> None:

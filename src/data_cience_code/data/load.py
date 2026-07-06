@@ -1,5 +1,5 @@
 import pandas as pd
-from config import config
+import data_cience_code.config.config as config
 
 
 def load_csv(filename: str, folder: str = "raw") -> pd.DataFrame:
