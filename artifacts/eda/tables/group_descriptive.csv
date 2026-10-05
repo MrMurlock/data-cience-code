@@ -1,0 +1,63 @@
+categorical_var,numeric_var,group,n,mean,std,median
+Sleep Disorder,Sleep Duration,Insomnia,77,6.59,0.39,6.5
+Sleep Disorder,Sleep Duration,No disorder,219,7.36,0.73,7.4
+Sleep Disorder,Sleep Duration,Sleep Apnea,78,7.03,0.97,6.8
+Sleep Disorder,Quality of Sleep,Insomnia,77,6.53,0.8,7.0
+Sleep Disorder,Quality of Sleep,No disorder,219,7.63,0.98,8.0
+Sleep Disorder,Quality of Sleep,Sleep Apnea,78,7.21,1.65,6.0
+Sleep Disorder,Stress Level,Insomnia,77,5.87,1.46,7.0
+Sleep Disorder,Stress Level,No disorder,219,5.11,1.59,5.0
+Sleep Disorder,Stress Level,Sleep Apnea,78,5.67,2.33,7.0
+Sleep Disorder,Heart Rate,Insomnia,77,70.47,4.95,72.0
+Sleep Disorder,Heart Rate,No disorder,219,69.02,2.66,70.0
+Sleep Disorder,Heart Rate,Sleep Apnea,78,73.09,5.12,75.0
+BMI Category,Sleep Duration,Normal,216,7.39,0.72,7.5
+BMI Category,Sleep Duration,Obese,10,6.96,0.88,7.3
+BMI Category,Sleep Duration,Overweight,148,6.77,0.76,6.5
+BMI Category,Quality of Sleep,Normal,216,7.64,1.0,8.0
+BMI Category,Quality of Sleep,Obese,10,6.4,1.9,7.0
+BMI Category,Quality of Sleep,Overweight,148,6.9,1.25,6.0
+BMI Category,Heart Rate,Normal,216,68.98,2.7,70.0
+BMI Category,Heart Rate,Obese,10,84.3,1.34,84.5
+BMI Category,Heart Rate,Overweight,148,70.95,4.04,72.0
+Gender,Sleep Duration,Female,185,7.23,0.88,7.2
+Gender,Sleep Duration,Male,189,7.04,0.69,7.2
+Gender,Quality of Sleep,Female,185,7.66,1.28,8.0
+Gender,Quality of Sleep,Male,189,6.97,1.0,7.0
+Gender,Stress Level,Female,185,4.68,1.91,4.0
+Gender,Stress Level,Male,189,6.08,1.3,6.0
+Gender,Heart Rate,Female,185,69.26,4.43,68.0
+Gender,Heart Rate,Male,189,71.05,3.62,70.0
+Occupation,Sleep Duration,Accountant,37,7.11,0.31,7.2
+Occupation,Sleep Duration,Doctor,71,6.97,0.86,7.6
+Occupation,Sleep Duration,Engineer,63,7.99,0.51,8.3
+Occupation,Sleep Duration,Lawyer,47,7.41,0.27,7.3
+Occupation,Sleep Duration,Manager,1,6.9,,6.9
+Occupation,Sleep Duration,Nurse,73,7.06,0.99,6.5
+Occupation,Sleep Duration,Sales Representative,2,5.9,0.0,5.9
+Occupation,Sleep Duration,Salesperson,32,6.4,0.09,6.4
+Occupation,Sleep Duration,Scientist,4,6.0,0.23,6.0
+Occupation,Sleep Duration,Software Engineer,4,6.75,0.87,6.8
+Occupation,Sleep Duration,Teacher,40,6.69,0.23,6.6
+Occupation,Quality of Sleep,Accountant,37,7.89,0.46,8.0
+Occupation,Quality of Sleep,Doctor,71,6.65,0.76,7.0
+Occupation,Quality of Sleep,Engineer,63,8.41,0.75,9.0
+Occupation,Quality of Sleep,Lawyer,47,7.89,0.31,8.0
+Occupation,Quality of Sleep,Manager,1,7.0,,7.0
+Occupation,Quality of Sleep,Nurse,73,7.37,1.55,6.0
+Occupation,Quality of Sleep,Sales Representative,2,4.0,0.0,4.0
+Occupation,Quality of Sleep,Salesperson,32,6.0,0.0,6.0
+Occupation,Quality of Sleep,Scientist,4,5.0,1.15,5.0
+Occupation,Quality of Sleep,Software Engineer,4,6.5,1.91,7.0
+Occupation,Quality of Sleep,Teacher,40,6.97,0.66,7.0
+Occupation,Heart Rate,Accountant,37,68.86,1.83,68.0
+Occupation,Heart Rate,Doctor,71,71.52,3.56,70.0
+Occupation,Heart Rate,Engineer,63,67.19,3.2,65.0
+Occupation,Heart Rate,Lawyer,47,69.64,3.38,68.0
+Occupation,Heart Rate,Manager,1,75.0,,75.0
+Occupation,Heart Rate,Nurse,73,72.0,3.77,75.0
+Occupation,Heart Rate,Sales Representative,2,85.0,0.0,85.0
+Occupation,Heart Rate,Salesperson,32,72.0,0.0,72.0
+Occupation,Heart Rate,Scientist,4,78.5,2.89,78.5
+Occupation,Heart Rate,Software Engineer,4,75.5,7.14,73.5
+Occupation,Heart Rate,Teacher,40,67.22,4.22,65.0

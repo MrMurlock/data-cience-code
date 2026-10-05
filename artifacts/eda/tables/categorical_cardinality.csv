@@ -1,0 +1,5 @@
+column,n_categories,top_category,top_count,top_pct
+Gender,2,Male,189,50.53
+Occupation,11,Nurse,73,19.52
+BMI Category,3,Normal,216,57.75
+Sleep Disorder,3,No disorder,219,58.56

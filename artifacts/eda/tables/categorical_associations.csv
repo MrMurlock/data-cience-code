@@ -1,0 +1,4 @@
+var_x,var_y,n,chi2,dof,p_value,cramers_v,min_expected,pct_cells_lt5
+Occupation,Sleep Disorder,374,421.36,20,7.481314161858014e-77,0.751,0.21,36.4
+BMI Category,Sleep Disorder,374,245.67,4,5.5883512097923584e-52,0.573,2.06,22.2
+Gender,Sleep Disorder,374,54.31,2,1.6128633524576768e-12,0.381,38.09,0.0

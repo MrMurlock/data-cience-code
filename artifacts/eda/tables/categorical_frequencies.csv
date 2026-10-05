@@ -1,0 +1,20 @@
+variable,category,abs,rel_pct
+Gender,Male,189,50.53
+Gender,Female,185,49.47
+Occupation,Nurse,73,19.52
+Occupation,Doctor,71,18.98
+Occupation,Engineer,63,16.84
+Occupation,Lawyer,47,12.57
+Occupation,Teacher,40,10.7
+Occupation,Accountant,37,9.89
+Occupation,Salesperson,32,8.56
+Occupation,Scientist,4,1.07
+Occupation,Software Engineer,4,1.07
+Occupation,Sales Representative,2,0.53
+Occupation,Manager,1,0.27
+BMI Category,Normal,216,57.75
+BMI Category,Overweight,148,39.57
+BMI Category,Obese,10,2.67
+Sleep Disorder,No disorder,219,58.56
+Sleep Disorder,Sleep Apnea,78,20.86
+Sleep Disorder,Insomnia,77,20.59

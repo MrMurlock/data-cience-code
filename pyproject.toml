@@ -1,28 +1,26 @@
 [project]
 name = "data-cience-code"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "MrMurlock",email = "49298120+MrMurlock@users.noreply.github.com"}
-]
+description = "Data Cience Code Ayudantia 2do Semestre 2026"
 readme = "README.md"
-requires-python = ">=3.14"
+authors = [
+    { name = "MrMurlock", email = "49298120+MrMurlock@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
 dependencies = [
-    "matplotlib (>=3.10.8,<4.0.0)",
-    "pandas (>=3.0.2,<4.0.0)",
-    "jupyterlab (>=4.5.6,<5.0.0)",
-    "seaborn (>=0.13.2,<0.14.0)",
-    "scikit-learn (>=1.8.0,<2.0.0)",
-    "joblib (>=1.5.3,<2.0.0)",
-    "scipy (>=1.17.1,<2.0.0)",
-    "mlxtend (>=0.25.0,<0.26.0)",
-    "networkx (>=3.0)"
+    "fg-data-profiling>=4.20.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.3.5",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "setuptools<82",
 ]
 
-[tool.poetry]
-package-mode = false
-packages = [{include = "data_cience_code", from = "src"}]
+[project.scripts]
+data-cience-code = "data_cience_code:main"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

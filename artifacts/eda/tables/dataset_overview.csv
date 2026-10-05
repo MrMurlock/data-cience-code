@@ -1,0 +1,14 @@
+column,dtype,non_null_count,null_count,null_pct
+Gender,object,374,0,0.0
+Age,int64,374,0,0.0
+Occupation,object,374,0,0.0
+Sleep Duration,float64,374,0,0.0
+Quality of Sleep,int64,374,0,0.0
+Physical Activity Level,int64,374,0,0.0
+Stress Level,int64,374,0,0.0
+BMI Category,object,374,0,0.0
+Heart Rate,int64,374,0,0.0
+Daily Steps,int64,374,0,0.0
+Sleep Disorder,object,374,0,0.0
+bp_systolic,int64,374,0,0.0
+bp_diastolic,int64,374,0,0.0

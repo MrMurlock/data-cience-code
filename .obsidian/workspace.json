@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "858e32d015822c39",
+        "id": "d1d5f8f7c1d44cec",
         "type": "tabs",
         "children": [
           {
-            "id": "77fd49cb26e16a39",
+            "id": "145b20777828c957",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLUSTERING.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CLUSTERING"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -41,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -183,8 +181,27 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "77fd49cb26e16a39",
+  "active": "145b20777828c957",
   "lastOpenFiles": [
+    "artifacts/eda/tables/numeric_summary_clean.csv",
+    "artifacts/eda/tables/numeric_ranges_clean.csv",
+    "reports/eda/presentation.final.pptx",
+    "reports/eda/presentation.final.md",
+    "artifacts/eda/images/physical_activity_hist.png",
+    "reports/eda/presentation.md",
+    "reports/eda/EDA.final.md",
+    "src/data_cience_code/utils/__pycache__/render.cpython-312.pyc",
+    "src/data_cience_code/utils/render.py",
+    "artifacts/eda/images/sleep_duration_hist.png",
+    "reports/eda/images/bmi_category_distribution.png",
+    "reports/eda/images/sleep_disorder_distribution.png",
+    "reports/eda/images/occupation_distribution.png",
+    "reports/eda/images/gender_distribution.png",
+    "reports/eda/images/quality_of_sleep_hist.png",
+    "reports/eda/images/stress_level_hist.png",
+    "reports/eda/images/physical_activity_hist.png",
+    "reports/eda/images/bp_diastolic_boxplot.png",
+    "reports/eda/images",
     "DATASET.md",
     "CLUSTERING.md",
     "AGENTS.md",
